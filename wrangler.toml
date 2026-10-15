@@ -8,5 +8,11 @@ database_name = "notes-db"
 # Replace this value after running: npx wrangler d1 create notes-db
 database_id = "01b610ab-4ec6-4a34-8af9-384729fb09c9"
 
+[vars]
+# The existing account with this email becomes the protected administrator.
+# Change this value before deployment if the administrator uses another account.
+ADMIN_EMAIL = "hmmd@live.com"
+USER_STORAGE_QUOTA_BYTES = "104857600"
+
 [observability]
 enabled = true
