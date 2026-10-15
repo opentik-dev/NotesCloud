@@ -1,10 +1,27 @@
 # دفتر سحابي | NotesCloud
 
-تطبيق ملاحظات عربي صغير يعمل داخل Cloudflare Worker ويستخدم D1 (SQLite) لحفظ البيانات.
+منصة ملاحظات سحابية متعددة المستخدمين، عربية أولًا، تعمل داخل Cloudflare Workers وتستخدم D1 (SQLite) لحفظ البيانات بأمان. صُممت NotesCloud لتكون مساحة هادئة وسريعة للكتابة والتنظيم، مع دعم النصوص والصور والرسومات المتجهة.
+
+English summary: NotesCloud is a multi-user, Arabic-first cloud notes platform built on Cloudflare Workers and D1. It provides private notes, Markdown editing, notebooks, tags, media assets, import tools, and responsive light/dark/system themes.
 
 الرابط المنشور: https://notes.opentik.win
 
 قاعدة D1: `notes-db` — المعرّف: `01b610ab-4ec6-4a34-8af9-384729fb09c9`
+
+## لماذا NotesCloud؟
+
+- خصوصية لكل مستخدم مع جلسات آمنة وعزل كامل للملاحظات والدفاتر والعلامات.
+- تجربة عربية واتجاه RTL متجاوب على الهاتف واللوحي وسطح المكتب.
+- محرر Markdown مع وضع تحرير ومعاينة منفصلين، وإدراج الصور ورسومات SVG.
+- تنظيم عملي عبر الدفاتر والعلامات والأرشيف والبحث والفرز وطرق عرض البطاقات والشبكة والقائمة.
+- استيراد من Obsidian وJoplin وGoogle Keep، مع نسخ احتياطي JSON.
+- ألوان ومظاهر فاتح/داكن/حسب النظام، مع شعار وهوية NotesCloud.
+
+## المساهمة في التطوير
+
+نرحب بالمساهمين في تحسين المحرر، تجربة الهاتف، الأداء، الترجمة، الاختبارات، والتكاملات. ابدأ بقراءة [CONTRIBUTING.md](CONTRIBUTING.md)، ثم افتح Issue يصف المشكلة أو الاقتراح قبل إرسال Pull Request.
+
+للتواصل حول فجوة واجهة أو سلوك غير متوقع، أرفق خطوات إعادة الإنتاج، المتصفح والجهاز، وصورة أو تسجيلًا إن أمكن. يرجى عدم رفع مفاتيح Cloudflare أو بيانات المستخدمين أو أي أسرار إلى المستودع.
 
 ## التشغيل لأول مرة
 
