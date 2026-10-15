@@ -1,0 +1,15 @@
+{
+  "name": "notescloud",
+  "version": "1.0.0",
+  "private": true,
+  "description": "NotesCloud - دفتر سحابي powered by Cloudflare Workers and D1",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "db:local": "wrangler d1 execute notes-db --local --file=./schema.sql",
+    "db:remote": "wrangler d1 execute notes-db --remote --file=./schema.sql"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
